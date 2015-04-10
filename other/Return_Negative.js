@@ -17,13 +17,12 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
 // Need to check if the Num is positive or negative
 // If  Negative OR Zero - return that Num
 // If positive, then get that Num Multiply -1
-// 
+// P.R.E.P
 
 function makeNegative(num) {
-    if(num === 0 || num < 0){
-        return num
-    } else{
-        return num * -1
-    }
+  if (num === 0 || num < 0) {
+    return num;
+  } else {
+    return num * -1;
   }
-
+}
