@@ -10,6 +10,7 @@
 
 // Example(Input --> Output)
 
+//P.R.E.P
 function findNeedle(haystack) {
   // your code here
 
