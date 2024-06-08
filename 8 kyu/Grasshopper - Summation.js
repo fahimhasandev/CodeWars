@@ -28,5 +28,5 @@ const summation = function (num) {
   }
 };
 
-console.log(summation(-4) === 10);
-console.log(summation(4) === 10);
+console.log(summation(-4) === 10); //false
+console.log(summation(4) === 10); // true
